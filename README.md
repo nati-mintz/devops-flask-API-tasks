@@ -28,6 +28,9 @@ The API supports:
    source venv/bin/activate
 
 3. **Install dependencies**
-  ```bash
+   ```bash
    pip install -r requirements.txt
+
+4. **Run the app**
+
 
