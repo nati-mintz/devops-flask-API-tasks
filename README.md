@@ -33,6 +33,7 @@ The API supports:
 3. **Install dependencies**
    ```bash
    pip install -r requirements.txt
+   ```
 
 4. **Run the app**
    ```bash
