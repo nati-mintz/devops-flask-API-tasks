@@ -56,17 +56,17 @@ The API supports:
 **The API will be available at: http://localhost:5000/tasks**
 
 ## Usage Examples (with curl)
-### Add a new task
+1. ### Add a new task
  ```bash
-curl -X POST http://localhost:5000/tasks \
-     -H "Content-Type: application/json" \
-     -d '{"title": "Learn Flask"}'
-```
+   curl -X POST http://localhost:5000/tasks \
+       -H "Content-Type: application/json" \
+       -d '{"title": "Learn Flask"}'
+  ```
 
-### Get all tasks
-  ```bash
-  curl http://localhost:5000/tasks
-```
+2. ### Get all tasks
+   ```bash
+   curl http://localhost:5000/tasks
+ ```
 
 
 
