@@ -31,17 +31,17 @@ The API supports:
   ```bash
   pip install -r requirements.txt
 
-4.**Run the app**
+4. **Run the app**
   ```bash
   python app.py
 
-#Running with Docker#
+## Running with Docker 
 
-1.**Build the Docker image**
+1. **Build the Docker image**
   ```bash
   docker build -t flask-task-api
 
-2.**Run the container**
+2. **Run the container**
   ```bash
   docker run -d -p 5000:5000 flask-task-api
 
