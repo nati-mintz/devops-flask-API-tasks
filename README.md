@@ -39,7 +39,7 @@ The API supports:
 ## Runing with Docker
 1. **bulid the Docker image**
     ```bash
-  docker build -t flask-task-api 
+   docker build -t flask-task-api 
 
 2. **Run the container**
     ```bash
