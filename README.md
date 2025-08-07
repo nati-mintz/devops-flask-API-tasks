@@ -25,7 +25,7 @@ The API supports:
 
 2. **Create virtual environment**
    ```bash
-      python3 -m venv venv
+   python3 -m venv venv
    source venv/bin/activate
 
 3. **Install dependencies**
@@ -40,11 +40,11 @@ The API supports:
 
 ## Running with Docker
 1. **build the Docker image**
-    ```bash```
+    ```bash
    docker build -t flask-task-api .
 
 2. **Run the container**
-    ```bash```
+    ```bash
     docker run -d -p 5000:5000 flask-task-api
 
 **The API will be available at: http://localhost:5000/tasks**
