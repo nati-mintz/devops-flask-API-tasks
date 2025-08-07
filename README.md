@@ -24,17 +24,24 @@ The API supports:
    cd your-repo
 
 2. **Create virtual environment**
+   ```bash
    source venv/bin/activate
 
 3.**Install dependencies**
+  ```bash
   pip install -r requirements.txt
 
 4.**Run the app**
+  ```bash
   python app.py
+
 #Running with Docker#
 
 1.**Build the Docker image**
-  docker build -t flask-task-api 
+  ```bash
+  docker build -t flask-task-api
+
 2.**Run the container**
+  ```bash
   docker run -d -p 5000:5000 flask-task-api
 
