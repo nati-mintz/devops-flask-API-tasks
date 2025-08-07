@@ -65,8 +65,8 @@ The API supports:
 
 2. **Get all tasks**
    ```bash
-curl http://localhost:5000/tasks
-```
+   curl http://localhost:5000/tasks
+
 
 
 
