@@ -18,16 +18,16 @@ The API supports:
 
 ##  How to Run Locally (Without Docker)
 
-1. **Clone the repository**
+**Clone the repository**
    ```bash
    git clone https://github.com/your-username/your-repo.git
    cd your-repo
 
-2. **Create virtual environment**
+**Create virtual environment**
    ```bash
    source venv/bin/activate
 
-3.**Install dependencies**
+**Install dependencies**
   ```bash
   pip install -r requirements.txt
 
