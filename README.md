@@ -56,5 +56,10 @@ curl -X POST http://localhost:5000/tasks \
      -H "Content-Type: application/json" \
      -d '{"title": "Learn Flask"}'
 
+  ```bash
+  curl http://localhost:5000/tasks
+
+
+
 
 
