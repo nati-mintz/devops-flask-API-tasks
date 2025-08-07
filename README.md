@@ -19,30 +19,32 @@ The API supports:
 ##  How to Run Locally (Without Docker)
 
 1. **Clone the repository**
-   ```bash
+   ```bash```
    git clone https://github.com/your-username/your-repo.git
    cd your-repo
 
 2. **Create virtual environment**
-   ```bash
+   ```bash```
+      python3 -m venv venv
    source venv/bin/activate
 
 3. **Install dependencies**
-   ```bash
+   ```bash```
    pip install -r requirements.txt
 
 4. **Run the app**
-   ```bash
+   ```bash```
    python app.py
-## Visit the API at: http://localhost:5000/tasks
+   
+**Visit the API at: http://localhost:5000/tasks**
 
-## Runing with Docker
+## Running with Docker
 1. **bulid the Docker image**
-    ```bash
+    ```bash```
    docker build -t flask-task-api 
 
 2. **Run the container**
-    ```bash
+    ```bash```
     docker run -d -p 5000:5000 flask-task-api
 
 ## The API will be available at: http://localhost:5000/tasks
