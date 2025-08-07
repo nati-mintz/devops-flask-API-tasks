@@ -32,5 +32,22 @@ The API supports:
    pip install -r requirements.txt
 
 4. **Run the app**
+   ```bash
+   python app.py
+## Visit the API at: http://localhost:5000/tasks
+
+## Runing with Docker
+1. **bulid the Docker image**
+    ```bash
+  docker build -t flask-task-api 
+
+2. **Run the container**
+    ```bash
+    docker run -d -p 5000:5000 flask-task-api
+
+## The API will be available at: http://localhost:5000/tasks
+
+
+
 
 
