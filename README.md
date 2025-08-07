@@ -1,6 +1,6 @@
 #  Simple Task API with Flask
 
-This is a simpel Python REST API built with Flask that allows users to manage a list of tasks using HTTP methods: `GET` and `POST`.
+This is a simple Python REST API built with Flask that allows users to manage a list of tasks using HTTP methods: `GET` and `POST`.
 
 ## Project Overview
 
@@ -56,14 +56,14 @@ The API supports:
 **The API will be available at: http://localhost:5000/tasks**
 
 ## Usage Examples (with curl)
-1. **Add a new task**
+### Add a new task
  ```bash
    curl -X POST http://localhost:5000/tasks \
        -H "Content-Type: application/json" \
        -d '{"title": "Learn Flask"}'
   ```
 
-2. **Get all tasks**
+### Get all tasks
    ```bash
    curl http://localhost:5000/tasks
    ```
