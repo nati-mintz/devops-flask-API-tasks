@@ -55,7 +55,7 @@ The API supports:
 curl -X POST http://localhost:5000/tasks \
      -H "Content-Type: application/json" \
      -d '{"title": "Learn Flask"}'
-
+### Get all tasks
   ```bash
   curl http://localhost:5000/tasks
 
